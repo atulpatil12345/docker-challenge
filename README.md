@@ -1,5 +1,7 @@
+Build and Run the Dockerized Application
+
 #Build the Docker Image
-docker build -t docker-challenge
+docker build -t docker-challenge .
 
 #Create and Run a Container
 docker run -d -p 3000:3000 -e PORT=3000 node
