@@ -1,5 +1,4 @@
-Build and Run the Dockerized Application
-
+# Build and Run the Dockerized Application
 #Build the Docker Image
 docker build -t docker-challenge .
 
